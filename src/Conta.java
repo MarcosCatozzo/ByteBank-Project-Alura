@@ -3,7 +3,6 @@ public class Conta {
     private int numeroDaConta;
     private int numeroDaAgencia;
     private double saldo;
-
     Cliente titularDaConta;
 
     public void deposita(double valor){
@@ -36,7 +35,9 @@ public class Conta {
         return this.numeroDaAgencia;
     }
 
-    public double getSaldo(){return this.saldo;}
+    public double getSaldo(){
+        return this.saldo;
+    }
 
     public void setNumeroDaConta(int numeroDaConta ){
         this.numeroDaConta = this.numeroDaConta;
